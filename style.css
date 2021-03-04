@@ -25,7 +25,7 @@
 }
 
 .characterInfo{
-  height: 550px;
+  height: 600px;
   padding: 30px;
   font-size: 24px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -49,4 +49,12 @@ input[type="text"]{
 #image{
   width: 300px;
   height: 300px;
+}
+
+.newCharForm{
+  padding: 30px;
+  font-size: 24px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border: dotted;
+  text-align: center;
 }
