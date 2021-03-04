@@ -146,6 +146,7 @@ const handleNewCharEvent = event => {
                 displayCharacter(newCharacter)
                 displayDetail(newCharacter)
             })
+            .catch(error => console.log(error))
         
         newForm.reset()
 }
